@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <title>GM</title>
+</head>
+<body>
+<div class="wrapper">
+  <aside class="aside">
+    <a href="./index.html" class="logo"><img src="img/logo-main.png" alt="Yum-yum logo"></a>
+    <nav class="navigation">
+      <a class="navigation__item navigation__item--choice" href="./index.html">Movie</a>
+      <a class="navigation__item navigation__item--movies selected" href="./episode.html">Episodes</a>
+
+    </nav>
+    <h4 class="movie_bar__h4">Watch full episodes</h4>
+    <div id="allLinks" class="movie_bar"></div>
+    <div class="user">
+      <img class="user__image" src="img/user.svg" alt="">
+      <div>
+        <div class="user__name">GM</div>
+        <div>gala.malareva@gmail.com</div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="top-bar">
+      <div class="top-bar__left">
+      </div>
+      <div class="top-bar__right">
+        <div class="input">
+          <img class="input__icon" src="img/icons/search.svg" alt="">
+          <input class="input__field" type="text" placeholder="Find episode">
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <h1 id="epTitle", class="h1">Powerpuff Girls</h1>
+      <h2 id="epNumber", class="h2">Episode &#8470; <span></span></h2>
+      <div class="movie" >
+        <img id="imageEp"class="movie__image" alt="" src="img/girls-S1-1920.jpg">
+        <div class="movie__title"></div>
+      </div>
+    </section>
+
+    <section>
+      <div id="epDescr">
+      <h2  class="h2">Summary</h2>
+        <p class="h2__text"></p>
+      </div>
+    </section>
+    <a class="button" href="./index.html">All episodes</a>
+  </main>
+</div>
+
+</body>
+</html>
